@@ -10,3 +10,7 @@ Balloon: adds 3 seconds to your time.
 Diamond: enables multi finger tapping for a limited time.
 
 There is also a rewards system. Earn points to unlock new backgrounds and music.
+
+![Tap Titan image](https://imgur.com/Tm7trpy)
+
+![Tap Titan image](https://imgur.com/GyzrBwI)
