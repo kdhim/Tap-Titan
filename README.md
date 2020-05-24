@@ -14,3 +14,5 @@ There is also a rewards system. Earn points to unlock new backgrounds and music.
 ![Tap Titan image](https://i.imgur.com/Tm7trpy.jpg)
 
 ![Tap Titan image](https://i.imgur.com/GyzrBwI.jpg)
+
+![Tap Titan image](https://i.imgur.com/UeCrmvs.png)
