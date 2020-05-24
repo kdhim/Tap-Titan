@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A045F24197386140013AFA3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A045F23197386140013AFA3 /* SecondViewController.m */; };
+		0A0914B61971B28E009A81EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0914B41971B262009A81EF /* AVFoundation.framework */; };
+		0A096951198B0770002DD1F9 /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A096950198B0770002DD1F9 /* GCHelper.m */; };
+		0A0BE5B919B3B7C700980BD1 /* Unlocked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BE5B819B3B7C700980BD1 /* Unlocked.wav */; };
+		0A0BE5BD19B3ED3B00980BD1 /* Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BE5BC19B3ED3B00980BD1 /* Paper.png */; };
+		0A0C30C719A935DE000A5BE4 /* LostCity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C30C619A935DE000A5BE4 /* LostCity.jpg */; };
+		0A0C30C919A935EB000A5BE4 /* TheFuture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C30C819A935EB000A5BE4 /* TheFuture.mp3 */; };
+		0A0E0F8D19BA5D1B00DCE09E /* Unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E0F8C19BA5D1B00DCE09E /* Unlock.png */; };
+		0A0E0F9719BAC99600DCE09E /* Gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E0F9519BAC99600DCE09E /* Gem.png */; };
+		0A0EE86919B518AC00EC0695 /* hiscore-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0EE86719B518AC00EC0695 /* hiscore-2.png */; };
+		0A0EE86A19B518AC00EC0695 /* hiscore.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0EE86819B518AC00EC0695 /* hiscore.png */; };
+		0A10C400199AED7D00B9B577 /* addedTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A10C3FF199AED7C00B9B577 /* addedTime.png */; };
+		0A10C404199B0B6600B9B577 /* timesup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A10C403199B0B6600B9B577 /* timesup.png */; };
+		0A111FA519706BC1000224C1 /* CALayer+RuntimeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A111FA419706BC1000224C1 /* CALayer+RuntimeAttribute.m */; };
+		0A111FA919707962000224C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A111FA819707962000224C1 /* AudioToolbox.framework */; };
+		0A129D491987F99400FD65A5 /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D421987F99400FD65A5 /* Click.wav */; };
+		0A129D4A1987F99400FD65A5 /* Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D431987F99400FD65A5 /* Ding.wav */; };
+		0A129D4B1987F99400FD65A5 /* Electrical-Sweep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D441987F99400FD65A5 /* Electrical-Sweep.wav */; };
+		0A129D4C1987F99400FD65A5 /* Pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D451987F99400FD65A5 /* Pop.wav */; };
+		0A129D4D1987F99400FD65A5 /* Rock-tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D461987F99400FD65A5 /* Rock-tap.wav */; };
+		0A129D4E1987F99400FD65A5 /* Shining.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D471987F99400FD65A5 /* Shining.wav */; };
+		0A129D4F1987F99400FD65A5 /* Techno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A129D481987F99400FD65A5 /* Techno.mp3 */; };
+		0A146F561990906A003BD70F /* pot_of_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A146F551990906A003BD70F /* pot_of_gold.png */; };
+		0A181BD3199C57F800ACC2AC /* carbon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A181BD2199C57F800ACC2AC /* carbon.ttf */; };
+		0A1928321975F6F000DF97A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1928311975F6F000DF97A6 /* QuartzCore.framework */; };
+		0A2167DF19B7C69E006E15E3 /* Grail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A2167DE19B7C69E006E15E3 /* Grail.gif */; };
+		0A216AA119C1073F00E89291 /* GraphPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A216AA019C1073F00E89291 /* GraphPaper.jpg */; };
+		0A36E7CD198B52D7000402F6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A36E7CC198B52D7000402F6 /* iAd.framework */; };
+		0A3CAEFF19AC448500292260 /* logo-text.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A3CAEFE19AC448500292260 /* logo-text.gif */; };
+		0A6A520719B95A2000BFDA90 /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6A520619B95A2000BFDA90 /* 100.png */; };
+		0A6A520919B95BA900BFDA90 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6A520819B95BA900BFDA90 /* 40.png */; };
+		0A73AAE71993073100B1B6BB /* unlockables-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A73AAE61993073100B1B6BB /* unlockables-bg.jpg */; };
+		0A73AAEE199313D500B1B6BB /* RewardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AAED199313D500B1B6BB /* RewardsViewController.m */; };
+		0A7E7BB819B1479F002A743B /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E7BB719B1479F002A743B /* banner.jpg */; };
+		0A7E7BBA19B14845002A743B /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E7BB919B14845002A743B /* close.png */; };
+		0A8345E8196F5F4900C765C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8345E7196F5F4900C765C4 /* Foundation.framework */; };
+		0A8345EA196F5F4900C765C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8345E9196F5F4900C765C4 /* CoreGraphics.framework */; };
+		0A8345EC196F5F4900C765C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8345EB196F5F4900C765C4 /* UIKit.framework */; };
+		0A8345F2196F5F4900C765C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A8345F0196F5F4900C765C4 /* InfoPlist.strings */; };
+		0A8345F4196F5F4900C765C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8345F3196F5F4900C765C4 /* main.m */; };
+		0A8345F8196F5F4900C765C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8345F7196F5F4900C765C4 /* AppDelegate.m */; };
+		0A8345FB196F5F4900C765C4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8345F9196F5F4900C765C4 /* Main_iPhone.storyboard */; };
+		0A8345FE196F5F4900C765C4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8345FC196F5F4900C765C4 /* Main_iPad.storyboard */; };
+		0A834601196F5F4900C765C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A834600196F5F4900C765C4 /* ViewController.m */; };
+		0A834603196F5F4A00C765C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A834602196F5F4A00C765C4 /* Images.xcassets */; };
+		0A83460A196F5F4A00C765C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A834609196F5F4A00C765C4 /* XCTest.framework */; };
+		0A83460B196F5F4A00C765C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8345E7196F5F4900C765C4 /* Foundation.framework */; };
+		0A83460C196F5F4A00C765C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8345EB196F5F4900C765C4 /* UIKit.framework */; };
+		0A834614196F5F4A00C765C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A834612196F5F4A00C765C4 /* InfoPlist.strings */; };
+		0A834616196F5F4A00C765C4 /* Tap_KingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A834615196F5F4A00C765C4 /* Tap_KingTests.m */; };
+		0A8A8D7019AE8E2A003DDB26 /* rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8D6F19AE8E2A003DDB26 /* rate.png */; };
+		0A8A8D7419AE9257003DDB26 /* rate_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8D7319AE9257003DDB26 /* rate_bg.jpg */; };
+		0A8A8D7C19AEBEDC003DDB26 /* invite_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8D7B19AEBEDC003DDB26 /* invite_bg.jpg */; };
+		0A8F950E19AD1E93006B3F53 /* Throne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F950D19AD1E93006B3F53 /* Throne.jpg */; };
+		0A8F984319AD3BF8006B3F53 /* switch_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F984119AD3BF8006B3F53 /* switch_off.png */; };
+		0A8F984419AD3BF8006B3F53 /* switch_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F984219AD3BF8006B3F53 /* switch_on.png */; };
+		0A8F984619AD50B7006B3F53 /* Mystery.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F984519AD50B7006B3F53 /* Mystery.png */; };
+		0A97098A19BCC8330043E633 /* Gotitem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A97098819BCC8330043E633 /* Gotitem.wav */; };
+		0A97098B19BCC8330043E633 /* Magicbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A97098919BCC8330043E633 /* Magicbell.wav */; };
+		0AA3A18019ADA5AF009E5577 /* StartButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3A17F19ADA5AF009E5577 /* StartButton.gif */; };
+		0ADDC02C1989E36100E28D19 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADDC02B1989E36100E28D19 /* FacebookSDK.framework */; };
+		0AF6914019986FC0000501EB /* MagicGrass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6913F19986FC0000501EB /* MagicGrass.jpg */; };
+		0AF69144199870B5000501EB /* HouseOfCards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF69143199870B5000501EB /* HouseOfCards.jpg */; };
+		0AF69148199872FF000501EB /* TasteOfPower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF69147199872FF000501EB /* TasteOfPower.jpg */; };
+		0AF6914A19987E53000501EB /* BaySide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6914919987E52000501EB /* BaySide.mp3 */; };
+		0AF6914C199883C2000501EB /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6914B199883C2000501EB /* check.png */; };
+		0AF90F361991EDF5003F2AAB /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF90F351991EDF5003F2AAB /* settings.png */; };
+		0AF90F381991F110003F2AAB /* rainbow_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF90F371991F110003F2AAB /* rainbow_bg.jpg */; };
+		0AF90F3B1991F2D8003F2AAB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF90F3A1991F2D8003F2AAB /* SettingsViewController.m */; };
+		0AFCBFE419881A8900324DF2 /* 139006-640.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9719881A8900324DF2 /* 139006-640.png */; };
+		0AFCBFE519881A8900324DF2 /* 537738.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9819881A8900324DF2 /* 537738.png */; };
+		0AFCBFE619881A8900324DF2 /* Balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9919881A8900324DF2 /* Balloon.png */; };
+		0AFCBFE719881A8900324DF2 /* cracked_diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9A19881A8900324DF2 /* cracked_diamond.png */; };
+		0AFCBFE819881A8900324DF2 /* Crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9B19881A8900324DF2 /* Crown.png */; };
+		0AFCBFE919881A8900324DF2 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9C19881A8900324DF2 /* diamond.png */; };
+		0AFCBFEA19881A8900324DF2 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBF9D19881A8900324DF2 /* facebook.png */; };
+		0AFCC00D19881A8900324DF2 /* Multitap.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBFDC19881A8900324DF2 /* Multitap.png */; };
+		0AFCC01019881A8900324DF2 /* purple-magic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBFDF19881A8900324DF2 /* purple-magic.jpg */; };
+		0AFCC01419881A8900324DF2 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCBFE319881A8900324DF2 /* twitter.png */; };
+		0AFCC01619881A9F00324DF2 /* TapTitan-logo-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCC01519881A9F00324DF2 /* TapTitan-logo-transparent.png */; };
+		0AFCC0741988479F00324DF2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFCC0731988479F00324DF2 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A83460D196F5F4A00C765C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8345DC196F5F4900C765C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8345E3196F5F4900C765C4;
+			remoteInfo = "Tap King";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A045F22197386140013AFA3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0A045F23197386140013AFA3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0A0914B41971B262009A81EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A096904198B0751002DD1F9 /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCHelper.h; sourceTree = "<group>"; };
+		0A096950198B0770002DD1F9 /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCHelper.m; sourceTree = "<group>"; };
+		0A0BE5B819B3B7C700980BD1 /* Unlocked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Unlocked.wav; sourceTree = "<group>"; };
+		0A0BE5BC19B3ED3B00980BD1 /* Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paper.png; sourceTree = "<group>"; };
+		0A0C30C619A935DE000A5BE4 /* LostCity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LostCity.jpg; sourceTree = "<group>"; };
+		0A0C30C819A935EB000A5BE4 /* TheFuture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheFuture.mp3; sourceTree = "<group>"; };
+		0A0E0F8C19BA5D1B00DCE09E /* Unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unlock.png; sourceTree = "<group>"; };
+		0A0E0F9519BAC99600DCE09E /* Gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gem.png; sourceTree = "<group>"; };
+		0A0EE86719B518AC00EC0695 /* hiscore-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiscore-2.png"; sourceTree = "<group>"; };
+		0A0EE86819B518AC00EC0695 /* hiscore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiscore.png; sourceTree = "<group>"; };
+		0A10C3FF199AED7C00B9B577 /* addedTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addedTime.png; sourceTree = "<group>"; };
+		0A10C403199B0B6600B9B577 /* timesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timesup.png; sourceTree = "<group>"; };
+		0A111FA319706BC1000224C1 /* CALayer+RuntimeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+RuntimeAttribute.h"; path = "../CALayer+RuntimeAttribute.h"; sourceTree = "<group>"; };
+		0A111FA419706BC1000224C1 /* CALayer+RuntimeAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+RuntimeAttribute.m"; path = "../CALayer+RuntimeAttribute.m"; sourceTree = "<group>"; };
+		0A111FA819707962000224C1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A129D421987F99400FD65A5 /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		0A129D431987F99400FD65A5 /* Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ding.wav; sourceTree = "<group>"; };
+		0A129D441987F99400FD65A5 /* Electrical-Sweep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Electrical-Sweep.wav"; sourceTree = "<group>"; };
+		0A129D451987F99400FD65A5 /* Pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pop.wav; sourceTree = "<group>"; };
+		0A129D461987F99400FD65A5 /* Rock-tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Rock-tap.wav"; sourceTree = "<group>"; };
+		0A129D471987F99400FD65A5 /* Shining.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Shining.wav; sourceTree = "<group>"; };
+		0A129D481987F99400FD65A5 /* Techno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Techno.mp3; sourceTree = "<group>"; };
+		0A146F551990906A003BD70F /* pot_of_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pot_of_gold.png; sourceTree = "<group>"; };
+		0A16BF141981CE53005953DF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0A181BD2199C57F800ACC2AC /* carbon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = carbon.ttf; path = "../../../Downloads/Tap Titan Resources/carbon.ttf"; sourceTree = "<group>"; };
+		0A1928311975F6F000DF97A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A2167DE19B7C69E006E15E3 /* Grail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Grail.gif; sourceTree = "<group>"; };
+		0A216AA019C1073F00E89291 /* GraphPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GraphPaper.jpg; sourceTree = "<group>"; };
+		0A36E7CC198B52D7000402F6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		0A3CAEFE19AC448500292260 /* logo-text.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo-text.gif"; sourceTree = "<group>"; };
+		0A6A520619B95A2000BFDA90 /* 100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100.png; sourceTree = "<group>"; };
+		0A6A520819B95BA900BFDA90 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		0A73AAE61993073100B1B6BB /* unlockables-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "unlockables-bg.jpg"; sourceTree = "<group>"; };
+		0A73AAEC199313D500B1B6BB /* RewardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardsViewController.h; sourceTree = "<group>"; };
+		0A73AAED199313D500B1B6BB /* RewardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardsViewController.m; sourceTree = "<group>"; };
+		0A7E7BB719B1479F002A743B /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		0A7E7BB919B14845002A743B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		0A8345E4196F5F4900C765C4 /* Tap Titan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Titan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8345E7196F5F4900C765C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A8345E9196F5F4900C765C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A8345EB196F5F4900C765C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A8345EF196F5F4900C765C4 /* Tap Titan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Titan-Info.plist"; sourceTree = "<group>"; };
+		0A8345F1196F5F4900C765C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A8345F3196F5F4900C765C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A8345F6196F5F4900C765C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A8345F7196F5F4900C765C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A8345FA196F5F4900C765C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0A8345FD196F5F4900C765C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0A8345FF196F5F4900C765C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A834600196F5F4900C765C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A834602196F5F4A00C765C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A834608196F5F4A00C765C4 /* Tap TitanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TitanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A834609196F5F4A00C765C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A834611196F5F4A00C765C4 /* Tap TitanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap TitanTests-Info.plist"; sourceTree = "<group>"; };
+		0A834613196F5F4A00C765C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A834615196F5F4A00C765C4 /* Tap_KingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_KingTests.m; sourceTree = "<group>"; };
+		0A8A8D6F19AE8E2A003DDB26 /* rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate.png; sourceTree = "<group>"; };
+		0A8A8D7319AE9257003DDB26 /* rate_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rate_bg.jpg; sourceTree = "<group>"; };
+		0A8A8D7B19AEBEDC003DDB26 /* invite_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invite_bg.jpg; sourceTree = "<group>"; };
+		0A8F950D19AD1E93006B3F53 /* Throne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Throne.jpg; sourceTree = "<group>"; };
+		0A8F984119AD3BF8006B3F53 /* switch_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_off.png; sourceTree = "<group>"; };
+		0A8F984219AD3BF8006B3F53 /* switch_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_on.png; sourceTree = "<group>"; };
+		0A8F984519AD50B7006B3F53 /* Mystery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mystery.png; sourceTree = "<group>"; };
+		0A97098819BCC8330043E633 /* Gotitem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gotitem.wav; sourceTree = "<group>"; };
+		0A97098919BCC8330043E633 /* Magicbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Magicbell.wav; sourceTree = "<group>"; };
+		0AA3A17F19ADA5AF009E5577 /* StartButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StartButton.gif; sourceTree = "<group>"; };
+		0ADDC02B1989E36100E28D19 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		0AF6913F19986FC0000501EB /* MagicGrass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MagicGrass.jpg; sourceTree = "<group>"; };
+		0AF69143199870B5000501EB /* HouseOfCards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HouseOfCards.jpg; sourceTree = "<group>"; };
+		0AF69147199872FF000501EB /* TasteOfPower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TasteOfPower.jpg; sourceTree = "<group>"; };
+		0AF6914919987E52000501EB /* BaySide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BaySide.mp3; sourceTree = "<group>"; };
+		0AF6914B199883C2000501EB /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		0AF90F351991EDF5003F2AAB /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		0AF90F371991F110003F2AAB /* rainbow_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbow_bg.jpg; sourceTree = "<group>"; };
+		0AF90F391991F2D8003F2AAB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0AF90F3A1991F2D8003F2AAB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0AFCBF9719881A8900324DF2 /* 139006-640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "139006-640.png"; sourceTree = "<group>"; };
+		0AFCBF9819881A8900324DF2 /* 537738.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 537738.png; sourceTree = "<group>"; };
+		0AFCBF9919881A8900324DF2 /* Balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloon.png; sourceTree = "<group>"; };
+		0AFCBF9A19881A8900324DF2 /* cracked_diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cracked_diamond.png; sourceTree = "<group>"; };
+		0AFCBF9B19881A8900324DF2 /* Crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crown.png; sourceTree = "<group>"; };
+		0AFCBF9C19881A8900324DF2 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		0AFCBF9D19881A8900324DF2 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		0AFCBFDC19881A8900324DF2 /* Multitap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Multitap.png; sourceTree = "<group>"; };
+		0AFCBFDF19881A8900324DF2 /* purple-magic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "purple-magic.jpg"; sourceTree = "<group>"; };
+		0AFCBFE319881A8900324DF2 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		0AFCC01519881A9F00324DF2 /* TapTitan-logo-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TapTitan-logo-transparent.png"; path = "../Icons/TapTitan-logo-transparent.png"; sourceTree = "<group>"; };
+		0AFCC0731988479F00324DF2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8345E1196F5F4900C765C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A36E7CD198B52D7000402F6 /* iAd.framework in Frameworks */,
+				0ADDC02C1989E36100E28D19 /* FacebookSDK.framework in Frameworks */,
+				0A1928321975F6F000DF97A6 /* QuartzCore.framework in Frameworks */,
+				0A0914B61971B28E009A81EF /* AVFoundation.framework in Frameworks */,
+				0AFCC0741988479F00324DF2 /* GameKit.framework in Frameworks */,
+				0A111FA919707962000224C1 /* AudioToolbox.framework in Frameworks */,
+				0A8345EA196F5F4900C765C4 /* CoreGraphics.framework in Frameworks */,
+				0A8345EC196F5F4900C765C4 /* UIKit.framework in Frameworks */,
+				0A8345E8196F5F4900C765C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A834605196F5F4A00C765C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A83460A196F5F4A00C765C4 /* XCTest.framework in Frameworks */,
+				0A83460C196F5F4A00C765C4 /* UIKit.framework in Frameworks */,
+				0A83460B196F5F4A00C765C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A129D411987F99400FD65A5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0A97098819BCC8330043E633 /* Gotitem.wav */,
+				0A97098919BCC8330043E633 /* Magicbell.wav */,
+				0A0BE5B819B3B7C700980BD1 /* Unlocked.wav */,
+				0A0C30C819A935EB000A5BE4 /* TheFuture.mp3 */,
+				0AF6914919987E52000501EB /* BaySide.mp3 */,
+				0A129D421987F99400FD65A5 /* Click.wav */,
+				0A129D431987F99400FD65A5 /* Ding.wav */,
+				0A129D441987F99400FD65A5 /* Electrical-Sweep.wav */,
+				0A129D451987F99400FD65A5 /* Pop.wav */,
+				0A129D461987F99400FD65A5 /* Rock-tap.wav */,
+				0A129D471987F99400FD65A5 /* Shining.wav */,
+				0A129D481987F99400FD65A5 /* Techno.mp3 */,
+			);
+			name = Sounds;
+			path = "../../../Downloads/Tap Titan Resources/Sounds";
+			sourceTree = "<group>";
+		};
+		0A73AAF819931C1C00B1B6BB /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				0A111FA319706BC1000224C1 /* CALayer+RuntimeAttribute.h */,
+				0A111FA419706BC1000224C1 /* CALayer+RuntimeAttribute.m */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		0A8345DB196F5F4900C765C4 = {
+			isa = PBXGroup;
+			children = (
+				0A8345ED196F5F4900C765C4 /* Tap King */,
+				0A83460F196F5F4A00C765C4 /* Tap KingTests */,
+				0A8345E6196F5F4900C765C4 /* Frameworks */,
+				0A8345E5196F5F4900C765C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8345E5196F5F4900C765C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8345E4196F5F4900C765C4 /* Tap Titan.app */,
+				0A834608196F5F4A00C765C4 /* Tap TitanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8345E6196F5F4900C765C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A36E7CC198B52D7000402F6 /* iAd.framework */,
+				0ADDC02B1989E36100E28D19 /* FacebookSDK.framework */,
+				0AFCC0731988479F00324DF2 /* GameKit.framework */,
+				0A16BF141981CE53005953DF /* Social.framework */,
+				0A1928311975F6F000DF97A6 /* QuartzCore.framework */,
+				0A0914B41971B262009A81EF /* AVFoundation.framework */,
+				0A111FA819707962000224C1 /* AudioToolbox.framework */,
+				0A8345E7196F5F4900C765C4 /* Foundation.framework */,
+				0A8345E9196F5F4900C765C4 /* CoreGraphics.framework */,
+				0A8345EB196F5F4900C765C4 /* UIKit.framework */,
+				0A834609196F5F4A00C765C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A8345ED196F5F4900C765C4 /* Tap King */ = {
+			isa = PBXGroup;
+			children = (
+				0A096904198B0751002DD1F9 /* GCHelper.h */,
+				0A096950198B0770002DD1F9 /* GCHelper.m */,
+				0A8345F6196F5F4900C765C4 /* AppDelegate.h */,
+				0A8345F7196F5F4900C765C4 /* AppDelegate.m */,
+				0A8345FF196F5F4900C765C4 /* ViewController.h */,
+				0A834600196F5F4900C765C4 /* ViewController.m */,
+				0A045F22197386140013AFA3 /* SecondViewController.h */,
+				0A045F23197386140013AFA3 /* SecondViewController.m */,
+				0AF90F391991F2D8003F2AAB /* SettingsViewController.h */,
+				0AF90F3A1991F2D8003F2AAB /* SettingsViewController.m */,
+				0A73AAEC199313D500B1B6BB /* RewardsViewController.h */,
+				0A73AAED199313D500B1B6BB /* RewardsViewController.m */,
+				0A8345F9196F5F4900C765C4 /* Main_iPhone.storyboard */,
+				0A8345FC196F5F4900C765C4 /* Main_iPad.storyboard */,
+				0A834602196F5F4A00C765C4 /* Images.xcassets */,
+				0A73AAF819931C1C00B1B6BB /* Submodules */,
+				0A8345EE196F5F4900C765C4 /* Supporting Files */,
+			);
+			path = "Tap King";
+			sourceTree = "<group>";
+		};
+		0A8345EE196F5F4900C765C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCBF9619881A8900324DF2 /* Images */,
+				0A129D411987F99400FD65A5 /* Sounds */,
+				0A8345EF196F5F4900C765C4 /* Tap Titan-Info.plist */,
+				0A181BD2199C57F800ACC2AC /* carbon.ttf */,
+				0A8345F0196F5F4900C765C4 /* InfoPlist.strings */,
+				0A8345F3196F5F4900C765C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A83460F196F5F4A00C765C4 /* Tap KingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A834615196F5F4A00C765C4 /* Tap_KingTests.m */,
+				0A834610196F5F4A00C765C4 /* Supporting Files */,
+			);
+			path = "Tap KingTests";
+			sourceTree = "<group>";
+		};
+		0A834610196F5F4A00C765C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A834611196F5F4A00C765C4 /* Tap TitanTests-Info.plist */,
+				0A834612196F5F4A00C765C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AFCBF9619881A8900324DF2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A216AA019C1073F00E89291 /* GraphPaper.jpg */,
+				0A0E0F9519BAC99600DCE09E /* Gem.png */,
+				0A0E0F8C19BA5D1B00DCE09E /* Unlock.png */,
+				0A6A520619B95A2000BFDA90 /* 100.png */,
+				0A6A520819B95BA900BFDA90 /* 40.png */,
+				0A2167DE19B7C69E006E15E3 /* Grail.gif */,
+				0A0EE86719B518AC00EC0695 /* hiscore-2.png */,
+				0A0EE86819B518AC00EC0695 /* hiscore.png */,
+				0A0BE5BC19B3ED3B00980BD1 /* Paper.png */,
+				0A7E7BB919B14845002A743B /* close.png */,
+				0A7E7BB719B1479F002A743B /* banner.jpg */,
+				0A8A8D7B19AEBEDC003DDB26 /* invite_bg.jpg */,
+				0A8A8D7319AE9257003DDB26 /* rate_bg.jpg */,
+				0AA3A17F19ADA5AF009E5577 /* StartButton.gif */,
+				0A8A8D6F19AE8E2A003DDB26 /* rate.png */,
+				0A8F984519AD50B7006B3F53 /* Mystery.png */,
+				0A8F984119AD3BF8006B3F53 /* switch_off.png */,
+				0A8F984219AD3BF8006B3F53 /* switch_on.png */,
+				0A8F950D19AD1E93006B3F53 /* Throne.jpg */,
+				0A3CAEFE19AC448500292260 /* logo-text.gif */,
+				0A0C30C619A935DE000A5BE4 /* LostCity.jpg */,
+				0A10C403199B0B6600B9B577 /* timesup.png */,
+				0A10C3FF199AED7C00B9B577 /* addedTime.png */,
+				0AF6914B199883C2000501EB /* check.png */,
+				0AF69147199872FF000501EB /* TasteOfPower.jpg */,
+				0AF69143199870B5000501EB /* HouseOfCards.jpg */,
+				0AF6913F19986FC0000501EB /* MagicGrass.jpg */,
+				0A73AAE61993073100B1B6BB /* unlockables-bg.jpg */,
+				0AF90F371991F110003F2AAB /* rainbow_bg.jpg */,
+				0AF90F351991EDF5003F2AAB /* settings.png */,
+				0A146F551990906A003BD70F /* pot_of_gold.png */,
+				0AFCC01519881A9F00324DF2 /* TapTitan-logo-transparent.png */,
+				0AFCBF9719881A8900324DF2 /* 139006-640.png */,
+				0AFCBF9819881A8900324DF2 /* 537738.png */,
+				0AFCBF9919881A8900324DF2 /* Balloon.png */,
+				0AFCBF9A19881A8900324DF2 /* cracked_diamond.png */,
+				0AFCBF9B19881A8900324DF2 /* Crown.png */,
+				0AFCBF9C19881A8900324DF2 /* diamond.png */,
+				0AFCBF9D19881A8900324DF2 /* facebook.png */,
+				0AFCBFDC19881A8900324DF2 /* Multitap.png */,
+				0AFCBFDF19881A8900324DF2 /* purple-magic.jpg */,
+				0AFCBFE319881A8900324DF2 /* twitter.png */,
+			);
+			name = Images;
+			path = "../../../Downloads/Tap Titan Resources/Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8345E3196F5F4900C765C4 /* Tap Titan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A834619196F5F4A00C765C4 /* Build configuration list for PBXNativeTarget "Tap Titan" */;
+			buildPhases = (
+				0A8345E0196F5F4900C765C4 /* Sources */,
+				0A8345E1196F5F4900C765C4 /* Frameworks */,
+				0A8345E2196F5F4900C765C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Titan";
+			productName = "Tap King";
+			productReference = 0A8345E4196F5F4900C765C4 /* Tap Titan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A834607196F5F4A00C765C4 /* Tap TitanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A83461C196F5F4A00C765C4 /* Build configuration list for PBXNativeTarget "Tap TitanTests" */;
+			buildPhases = (
+				0A834604196F5F4A00C765C4 /* Sources */,
+				0A834605196F5F4A00C765C4 /* Frameworks */,
+				0A834606196F5F4A00C765C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A83460E196F5F4A00C765C4 /* PBXTargetDependency */,
+			);
+			name = "Tap TitanTests";
+			productName = "Tap KingTests";
+			productReference = 0A834608196F5F4A00C765C4 /* Tap TitanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8345DC196F5F4900C765C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					0A8345E3196F5F4900C765C4 = {
+						DevelopmentTeam = H8BS6242YK;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					0A834607196F5F4A00C765C4 = {
+						TestTargetID = 0A8345E3196F5F4900C765C4;
+					};
+				};
+			};
+			buildConfigurationList = 0A8345DF196F5F4900C765C4 /* Build configuration list for PBXProject "Tap Titan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8345DB196F5F4900C765C4;
+			productRefGroup = 0A8345E5196F5F4900C765C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8345E3196F5F4900C765C4 /* Tap Titan */,
+				0A834607196F5F4A00C765C4 /* Tap TitanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8345E2196F5F4900C765C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F984419AD3BF8006B3F53 /* switch_on.png in Resources */,
+				0A8A8D7419AE9257003DDB26 /* rate_bg.jpg in Resources */,
+				0A8345FE196F5F4900C765C4 /* Main_iPad.storyboard in Resources */,
+				0A7E7BBA19B14845002A743B /* close.png in Resources */,
+				0A834603196F5F4A00C765C4 /* Images.xcassets in Resources */,
+				0A97098B19BCC8330043E633 /* Magicbell.wav in Resources */,
+				0A73AAE71993073100B1B6BB /* unlockables-bg.jpg in Resources */,
+				0AF69144199870B5000501EB /* HouseOfCards.jpg in Resources */,
+				0A97098A19BCC8330043E633 /* Gotitem.wav in Resources */,
+				0A8345FB196F5F4900C765C4 /* Main_iPhone.storyboard in Resources */,
+				0A8345F2196F5F4900C765C4 /* InfoPlist.strings in Resources */,
+				0A129D4E1987F99400FD65A5 /* Shining.wav in Resources */,
+				0AFCBFEA19881A8900324DF2 /* facebook.png in Resources */,
+				0A129D4D1987F99400FD65A5 /* Rock-tap.wav in Resources */,
+				0A0C30C719A935DE000A5BE4 /* LostCity.jpg in Resources */,
+				0A146F561990906A003BD70F /* pot_of_gold.png in Resources */,
+				0A0EE86919B518AC00EC0695 /* hiscore-2.png in Resources */,
+				0AA3A18019ADA5AF009E5577 /* StartButton.gif in Resources */,
+				0A2167DF19B7C69E006E15E3 /* Grail.gif in Resources */,
+				0A6A520919B95BA900BFDA90 /* 40.png in Resources */,
+				0A181BD3199C57F800ACC2AC /* carbon.ttf in Resources */,
+				0AF6914A19987E53000501EB /* BaySide.mp3 in Resources */,
+				0A0E0F8D19BA5D1B00DCE09E /* Unlock.png in Resources */,
+				0A10C404199B0B6600B9B577 /* timesup.png in Resources */,
+				0A129D4B1987F99400FD65A5 /* Electrical-Sweep.wav in Resources */,
+				0A129D4A1987F99400FD65A5 /* Ding.wav in Resources */,
+				0A8A8D7019AE8E2A003DDB26 /* rate.png in Resources */,
+				0AFCBFE419881A8900324DF2 /* 139006-640.png in Resources */,
+				0A129D4F1987F99400FD65A5 /* Techno.mp3 in Resources */,
+				0AF6914C199883C2000501EB /* check.png in Resources */,
+				0A3CAEFF19AC448500292260 /* logo-text.gif in Resources */,
+				0AFCBFE819881A8900324DF2 /* Crown.png in Resources */,
+				0A0EE86A19B518AC00EC0695 /* hiscore.png in Resources */,
+				0A0BE5BD19B3ED3B00980BD1 /* Paper.png in Resources */,
+				0A0E0F9719BAC99600DCE09E /* Gem.png in Resources */,
+				0AFCBFE919881A8900324DF2 /* diamond.png in Resources */,
+				0AF69148199872FF000501EB /* TasteOfPower.jpg in Resources */,
+				0AFCBFE619881A8900324DF2 /* Balloon.png in Resources */,
+				0A8F950E19AD1E93006B3F53 /* Throne.jpg in Resources */,
+				0AF90F361991EDF5003F2AAB /* settings.png in Resources */,
+				0AF6914019986FC0000501EB /* MagicGrass.jpg in Resources */,
+				0A129D491987F99400FD65A5 /* Click.wav in Resources */,
+				0A216AA119C1073F00E89291 /* GraphPaper.jpg in Resources */,
+				0AF90F381991F110003F2AAB /* rainbow_bg.jpg in Resources */,
+				0AFCBFE519881A8900324DF2 /* 537738.png in Resources */,
+				0A10C400199AED7D00B9B577 /* addedTime.png in Resources */,
+				0AFCC01019881A8900324DF2 /* purple-magic.jpg in Resources */,
+				0A8A8D7C19AEBEDC003DDB26 /* invite_bg.jpg in Resources */,
+				0AFCBFE719881A8900324DF2 /* cracked_diamond.png in Resources */,
+				0A0C30C919A935EB000A5BE4 /* TheFuture.mp3 in Resources */,
+				0A0BE5B919B3B7C700980BD1 /* Unlocked.wav in Resources */,
+				0A6A520719B95A2000BFDA90 /* 100.png in Resources */,
+				0A129D4C1987F99400FD65A5 /* Pop.wav in Resources */,
+				0AFCC01419881A8900324DF2 /* twitter.png in Resources */,
+				0A8F984619AD50B7006B3F53 /* Mystery.png in Resources */,
+				0AFCC00D19881A8900324DF2 /* Multitap.png in Resources */,
+				0AFCC01619881A9F00324DF2 /* TapTitan-logo-transparent.png in Resources */,
+				0A8F984319AD3BF8006B3F53 /* switch_off.png in Resources */,
+				0A7E7BB819B1479F002A743B /* banner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A834606196F5F4A00C765C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A834614196F5F4A00C765C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8345E0196F5F4900C765C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A045F24197386140013AFA3 /* SecondViewController.m in Sources */,
+				0A096951198B0770002DD1F9 /* GCHelper.m in Sources */,
+				0A834601196F5F4900C765C4 /* ViewController.m in Sources */,
+				0A8345F4196F5F4900C765C4 /* main.m in Sources */,
+				0A8345F8196F5F4900C765C4 /* AppDelegate.m in Sources */,
+				0A111FA519706BC1000224C1 /* CALayer+RuntimeAttribute.m in Sources */,
+				0AF90F3B1991F2D8003F2AAB /* SettingsViewController.m in Sources */,
+				0A73AAEE199313D500B1B6BB /* RewardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A834604196F5F4A00C765C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A834616196F5F4A00C765C4 /* Tap_KingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A83460E196F5F4A00C765C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8345E3196F5F4900C765C4 /* Tap Titan */;
+			targetProxy = 0A83460D196F5F4A00C765C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8345F0196F5F4900C765C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8345F1196F5F4900C765C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A8345F9196F5F4900C765C4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8345FA196F5F4900C765C4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8345FC196F5F4900C765C4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8345FD196F5F4900C765C4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0A834612196F5F4A00C765C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A834613196F5F4A00C765C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A834617196F5F4A00C765C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A834618196F5F4A00C765C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A83461A196F5F4A00C765C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mikhail Dhimitri (U63ZLDURN2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mikhail Dhimitri (U63ZLDURN2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kevin/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap King/Tap Titan-Prefix.pch";
+				INFOPLIST_FILE = "Tap King/Tap Titan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "Tap Titan";
+				PROVISIONING_PROFILE = "A0C8E982-0390-4D43-BF51-77335D1FE5D0";
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A83461B196F5F4A00C765C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mikhail Dhimitri (H8BS6242YK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mikhail Dhimitri (H8BS6242YK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kevin/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap King/Tap Titan-Prefix.pch";
+				INFOPLIST_FILE = "Tap King/Tap Titan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "Tap Titan";
+				PROVISIONING_PROFILE = "275B09C9-30CB-428B-965F-980AC6442310";
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A83461D196F5F4A00C765C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tap King.app/Tap King";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap King/Tap King-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tap KingTests/Tap TitanTests-Info.plist";
+				PRODUCT_NAME = "Tap TitanTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A83461E196F5F4A00C765C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tap King.app/Tap King";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap King/Tap King-Prefix.pch";
+				INFOPLIST_FILE = "Tap KingTests/Tap TitanTests-Info.plist";
+				PRODUCT_NAME = "Tap TitanTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8345DF196F5F4900C765C4 /* Build configuration list for PBXProject "Tap Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A834617196F5F4A00C765C4 /* Debug */,
+				0A834618196F5F4A00C765C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A834619196F5F4A00C765C4 /* Build configuration list for PBXNativeTarget "Tap Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A83461A196F5F4A00C765C4 /* Debug */,
+				0A83461B196F5F4A00C765C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A83461C196F5F4A00C765C4 /* Build configuration list for PBXNativeTarget "Tap TitanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A83461D196F5F4A00C765C4 /* Debug */,
+				0A83461E196F5F4A00C765C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8345DC196F5F4900C765C4 /* Project object */;
+}
